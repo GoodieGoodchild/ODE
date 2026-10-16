@@ -25,7 +25,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           <Link to={user ? (config?.dash || '/') : '/'} className="flex items-center gap-2">
             <span className="text-2xl font-display font-bold text-forest-500 tracking-tight">ODE</span>
-            <span className="hidden sm:block text-xs text-gray-400 font-medium tracking-widest uppercase mt-1">Open Dining</span>
+            <span className="hidden sm:block text-xs text-gray-400 font-medium tracking-widest uppercase mt-1">Open Dining Experiences</span>
           </Link>
 
           <div className="flex items-center gap-4">
