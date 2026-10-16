@@ -38,10 +38,21 @@ export default function Navbar() {
                   {config?.icon && <config.icon size={16} />}
                   {config?.label}
                 </Link>
+                {user.role === 'diner' && (
+                  <Link to="/profile" className="text-sm font-medium text-gray-600 hover:text-forest-500 transition-colors hidden sm:block">
+                    My Profile
+                  </Link>
+                )}
                 <div className="flex items-center gap-2 pl-4 border-l border-gray-200">
-                  <div className="w-8 h-8 rounded-full bg-forest-500 text-white text-xs font-bold flex items-center justify-center">
-                    {user.avatar || user.name[0]}
-                  </div>
+                  {user.role === 'diner' ? (
+                    <Link to="/profile" className="w-8 h-8 rounded-full bg-forest-500 text-white text-xs font-bold flex items-center justify-center hover:bg-forest-600 transition-colors">
+                      {user.name[0]}
+                    </Link>
+                  ) : (
+                    <div className="w-8 h-8 rounded-full bg-forest-500 text-white text-xs font-bold flex items-center justify-center">
+                      {user.name[0]}
+                    </div>
+                  )}
                   <span className="hidden sm:block text-sm text-gray-700 font-medium">{user.name.split(' ')[0]}</span>
                   <button
                     onClick={handleLogout}
@@ -54,6 +65,9 @@ export default function Navbar() {
               </>
             ) : (
               <div className="flex items-center gap-3">
+                <Link to="/pricing" className="text-sm font-medium text-gray-600 hover:text-forest-500 transition-colors hidden sm:block">
+                  Pricing
+                </Link>
                 <Link to="/login" className="text-sm font-medium text-gray-600 hover:text-forest-500 transition-colors">
                   Sign in
                 </Link>

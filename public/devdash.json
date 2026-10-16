@@ -1,0 +1,31 @@
+{
+  "name": "ODE — Open Dining Experiences",
+  "description": "A social dining platform for South Africa where diners pre-book curated set menus, join open tables with strangers, and unlock exclusive alcohol brand promotions.",
+  "version": "0.0.0",
+  "stack": "React + Supabase + Vite + TailwindCSS",
+  "liveUrl": "",
+  "repoUrl": "https://github.com/GoodieGoodchild/ODE",
+  "hotjarId": "[PASTE YOUR HOTJAR SITE ID HERE]",
+  "status": "active",
+  "type": "product",
+  "category": "Marketplace",
+  "features": [
+    "Set course menu booking with seat tracking",
+    "Open tables — host or join a shared dining experience",
+    "Alcohol brand promotions redeemable at booking",
+    "Treat the Table — diners pre-purchase drinks for the whole table",
+    "TableTalk — interest-matched conversation starters for each event",
+    "Three-role auth: Diners, Restaurants, Brand Reps",
+    "Restaurant subscription tiers (Free / Growth / Pro)",
+    "Diner interest profiles with up to 12 selectable interests"
+  ],
+  "social": {
+    "instagram": "",
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "",
+    "website": ""
+  },
+  "lastUpdated": "2026-06-11",
+  "launchDate": ""
+}
