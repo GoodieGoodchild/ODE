@@ -3,7 +3,7 @@
   "description": "A social dining platform for South Africa where diners pre-book curated set menus, join open tables with strangers, and unlock exclusive alcohol brand promotions.",
   "version": "0.0.0",
   "stack": "React + Supabase + Vite + TailwindCSS",
-  "liveUrl": "",
+  "liveUrl": "https://ode-khaki.vercel.app",
   "repoUrl": "https://github.com/GoodieGoodchild/ODE",
   "hotjarId": "[PASTE YOUR HOTJAR SITE ID HERE]",
   "status": "active",
